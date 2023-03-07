@@ -13,10 +13,10 @@ import AboutComment from "./components/AboutComment";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/homepage",
     element: <RootLayOut />,
     children: [
-      { path: "/", element: <App /> },
+      { path: "/homepage", element: <App /> },
       { path: "/resume", element: <Resume /> },
       { path: "/works", element: <Works /> },
       { path: "/skills", element: <Skills /> },
