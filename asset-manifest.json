@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/jay-for-code/static/css/main.a1e947a1.css",
+    "main.js": "/jay-for-code/static/js/main.e87e2e74.js",
+    "static/media/bg.png": "/jay-for-code/static/media/bg.83be42cc6a03fb051c21.png",
+    "static/media/favicon.png": "/jay-for-code/static/media/favicon.e312fbd8924f86823cab.png",
+    "static/media/capstone.png": "/jay-for-code/static/media/capstone.670a0159d2f42aaacddb.png",
+    "static/media/word.png": "/jay-for-code/static/media/word.f599d87fd60c7ee47de6.png",
+    "static/media/Resume.pdf": "/jay-for-code/static/media/Resume.846be0af2f112c0df4ca.pdf",
+    "static/media/AE.png": "/jay-for-code/static/media/AE.f1071985cb250fc38794.png",
+    "static/media/CSS_certificate.jpg": "/jay-for-code/static/media/CSS_certificate.cad961ad1722527f8baa.jpg",
+    "static/media/HTML_certificate.jpg": "/jay-for-code/static/media/HTML_certificate.a633c830c202c0b98423.jpg",
+    "static/media/JavaScript_certificate.jpg": "/jay-for-code/static/media/JavaScript_certificate.53d3f8d86e374bda5fe4.jpg",
+    "static/media/SQL_certificate.jpg": "/jay-for-code/static/media/SQL_certificate.e8d9755d3ab5e2bea0bb.jpg",
+    "static/media/jQuery_certificate.jpg": "/jay-for-code/static/media/jQuery_certificate.e4fe088502393c6fa65c.jpg",
+    "static/media/python.png": "/jay-for-code/static/media/python.1ac4a75f1ffc8a1157bb.png",
+    "static/media/react.png": "/jay-for-code/static/media/react.a3c2d708f829bb0836aa.png",
+    "static/media/PHP_certificate.jpg": "/jay-for-code/static/media/PHP_certificate.3a58f0abebf541a8e781.jpg",
+    "static/media/Capture1.PNG": "/jay-for-code/static/media/Capture1.f1b60c717d38d63c4596.PNG",
+    "static/media/Capture.PNG": "/jay-for-code/static/media/Capture.45b2611a07414a452eba.PNG",
+    "static/media/Capture2.PNG": "/jay-for-code/static/media/Capture2.007f86ed93480f6ef022.PNG",
+    "static/media/django.png": "/jay-for-code/static/media/django.e7650cb868a38a0f5c10.png",
+    "static/media/php.png": "/jay-for-code/static/media/php.19ca5b03ebf91e90faff.png",
+    "static/media/powerpoint.png": "/jay-for-code/static/media/powerpoint.1fdaa62bb9b9f00630c8.png",
+    "static/media/Capture3.PNG": "/jay-for-code/static/media/Capture3.dad639f2640e3bc4599d.PNG",
+    "static/media/mysql.png": "/jay-for-code/static/media/mysql.6e42b2a035b28f240021.png",
+    "static/media/css.jpg": "/jay-for-code/static/media/css.ef605f2148ca970497b5.jpg",
+    "static/media/logo.png": "/jay-for-code/static/media/logo.d8964c2f125477d40f09.png",
+    "static/media/javascript.png": "/jay-for-code/static/media/javascript.e9e5ff428f2ee646e08a.png",
+    "index.html": "/jay-for-code/index.html",
+    "main.a1e947a1.css.map": "/jay-for-code/static/css/main.a1e947a1.css.map",
+    "main.e87e2e74.js.map": "/jay-for-code/static/js/main.e87e2e74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1e947a1.css",
+    "static/js/main.e87e2e74.js"
+  ]
+}
