@@ -16,16 +16,16 @@ function Nav() {
           <Link to="/"  className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
             <BiHomeAlt />
           </Link>
-          <Link to="about" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
+          <Link to="/about" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
             <BiUser />
           </Link>
-          <Link to="achievements" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
+          <Link to="/achievements" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
             <BsTrophy />
           </Link>
-          <Link to="works" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
+          <Link to="/works" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
             <BsBriefcase />
           </Link>
-          <Link to="skills" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
+          <Link to="/skills" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
             <BsCodeSquare />
           </Link>
         </div>

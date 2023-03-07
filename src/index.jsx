@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./components/routes/App";
 import Resume from "./components/Resume";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { createHashRouter, HashRouter } from "react-router-dom";
 import RootLayOut from "./components/routes/RootLayout";
 import Works from "./components/Works";
 import Skills from "./components/Skills";
@@ -11,7 +11,7 @@ import Achievements from "./components/Achievements";
 import About from "./components/About";
 import AboutComment from "./components/AboutComment";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <RootLayOut />,
@@ -29,6 +29,6 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter type="hasbang" router={router} />
   </React.StrictMode>
 );
