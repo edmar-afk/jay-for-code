@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 /* Firefox */
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #00c9db;
@@ -30,6 +31,11 @@
 
 .btn:hover {
   background: #00c9db00;
+}
+
+body{
+  background-image: url('../src/assets/images/bg.png');
+  background-size: cover;
 }
 
 .gradient,

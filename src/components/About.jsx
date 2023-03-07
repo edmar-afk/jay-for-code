@@ -35,34 +35,20 @@ function About() {
   return (
     <div className="p-4">
       <div className="flex flex-col justify-around p-2 bg-slate-800/20 md:flex-row  mb-12">
-        <div className="flex flex-col  w-[100%] max-w-[320px] rounded-xl items-center  text-center p-2 ">
-          <motion.img
-            variants={fadeIn("up", 0.4)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.5 }}
-            src={Image1}
-            alt="me"
-            className="w-[150px] rounded-lg mb-2"
-          />
-          <motion.div
-            variants={fadeIn("right", 0.4)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.5 }}
-            className="flex items-center mt-10"
-          >
+        <motion.div
+          variants={fadeIn("down", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.5 }}
+          className="flex flex-col  w-[100%] max-w-[320px] rounded-xl items-center  text-center p-2 "
+        >
+          <img src={Image1} alt="me" className="w-[150px] rounded-lg mb-2" />
+          <div className="flex items-center mt-10">
             <div className="bg-slate-700 w-[50px] h-[.5px] mr-2" />
             <p className="text-sm"> Qoutes</p>
             <div className="bg-slate-700 ml-2 w-[50px] h-[.5px]" />
-          </motion.div>
-          <motion.div
-            variants={fadeIn("left", 0.4)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.5 }}
-            className="flex flex-auto"
-          >
+          </div>
+          <div className="flex flex-auto">
             <p className="mt-4 text-center">
               “Perfection is achieved not when there is nothing more to add, but
               rather when there is nothing more to take away.” –{" "}
@@ -70,47 +56,27 @@ function About() {
                 Antoine de Saint – Exupery
               </span>
             </p>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
 
         <div className="w-[100%] rounded-xl ml-2 p-2">
           <div className="p-2">
-            <motion.div
-              variants={fadeIn("down", 0.4)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.5 }}
-              className="flex justify-between flex-wrap"
-            >
+            <div className="flex justify-between flex-wrap">
               <h1 className="text-primary font-bold flex text-center text-[25px]">
                 Edmar Jay Heolin
               </h1>
-            </motion.div>
+            </div>
 
-            <motion.div
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.5 }}
-              className="flex justify-between items-center flex-wrap"
-            >
+            <div className="flex justify-between items-center flex-wrap">
               <p className="text-md">Software Developer</p>
 
               <p className="text-md flex items-center">
                 <FaMap className="mr-2 text-primary text-[19px]" />
                 Pob. Guipos
               </p>
-            </motion.div>
-            <motion.p
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.5 }}
-              className="mt-10 text-sm"
-            >
-              Experience
-            </motion.p>
-            <motion.p
+            </div>
+            <p className="mt-10 text-sm">Experience</p>
+            <p
               variants={fadeIn("left", 0.4)}
               initial="hidden"
               whileInView={"show"}
@@ -119,7 +85,7 @@ function About() {
             >
               {" "}
               <FaLaptopCode className="mr-2 text-primary" /> 50+ Webapps Created{" "}
-            </motion.p>
+            </p>
             <div className="flex items-center flex-wrap justify-center sm:justify-start mt-5">
               <motion.a
                 variants={fadeIn("right", 0.4)}
@@ -146,13 +112,7 @@ function About() {
                 View PDF resume
               </motion.a>
             </div>
-            <motion.div
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.5 }}
-              className="mt-12 flex items-center border-2 border-x-0 border-t-0 border-b-slate-700 "
-            >
+            <div className="mt-12 flex items-center border-2 border-x-0 border-t-0 border-b-slate-700 ">
               <a
                 href="#"
                 className="text-sm flex items-center text-primary font-bold mr-5"
@@ -165,7 +125,7 @@ function About() {
                 <FaNewspaper className="mr-2" />
                 Comments
               </Link>
-            </motion.div>
+            </div>
             <div className="flex flex-wrap justify-between">
               <div className="flex flex-col">
                 <motion.div
@@ -234,14 +194,14 @@ function About() {
               </div>
               <div className="flex flex-row mt-12 justify-center">
                 <div className="text-sm">
-                  <motion.p
+                  <p
                     variants={fadeIn("up", 0.4)}
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.5 }}
                   >
                     Used Programming Languages:
-                  </motion.p>
+                  </p>
 
                   <motion.div
                     variants={fadeIn("right", 0.4)}
@@ -262,7 +222,7 @@ function About() {
                     />
                     <img src={Image4} className="h-[45px] w-[50px]" alt="" />
                   </motion.div>
-                  <motion.p
+                  <p
                     variants={fadeIn("down", 0.4)}
                     initial="hidden"
                     whileInView={"show"}
@@ -270,7 +230,7 @@ function About() {
                     className="mt-12"
                   >
                     Used Frameworks/Libraries:
-                  </motion.p>
+                  </p>
                   <motion.div
                     variants={fadeIn("left", 0.4)}
                     initial="hidden"
@@ -299,7 +259,7 @@ function About() {
                       alt=""
                     />
                   </motion.div>
-                  <motion.p
+                  <p
                     variants={fadeIn("down", 0.4)}
                     initial="hidden"
                     whileInView={"show"}
@@ -307,7 +267,7 @@ function About() {
                     className="mt-12"
                   >
                     Used Softwares:
-                  </motion.p>
+                  </p>
                   <motion.div
                     variants={fadeIn("right", 0.4)}
                     initial="hidden"
