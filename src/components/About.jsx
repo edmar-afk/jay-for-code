@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
 import Image1 from "../assets/images/favicon.png";
@@ -141,16 +142,16 @@ function About() {
                       <FaPhoneAlt className="mr-2" />
                       Phone 1:{" "}
                     </p>
-                    <a href="3" className="text-primary">
+                    <a href="tel:+639665616586" className="text-primary">
                       +63 9665616586
                     </a>
                   </div>
                   <div className="flex mt-3">
                     <p className="mr-12 flex items-center">
                       <FaPhoneAlt className="mr-2" />
-                      Phone 2:{" "}
+                      Phone 2:
                     </p>
-                    <a href="3" className="text-primary">
+                    <a href="tel: +639562059570" className="text-primary">
                       +63 9562059570
                     </a>
                   </div>
@@ -159,7 +160,11 @@ function About() {
                       <FaMailBulk className="mr-2" />
                       Email:{" "}
                     </p>
-                    <a href="3" className="text-primary">
+                    <a
+                      href="mailto: abc@example.com"
+                      target="_blank"
+                      className="text-primary"
+                    >
                       jaywrsnp6@gmail.com
                     </a>
                   </div>
