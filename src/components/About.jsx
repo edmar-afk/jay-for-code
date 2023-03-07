@@ -36,11 +36,11 @@ function About() {
     <div className="p-4">
       <div className="flex flex-col justify-around p-2 bg-slate-800/20 md:flex-row  mb-12">
         <motion.div
-          variants={fadeIn("down", 0.4)}
+          variants={fadeIn("down", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.5 }}
-          className="flex flex-col  w-[100%] max-w-[320px] rounded-xl items-center  text-center p-2 "
+          viewport={{ once: false, amount: 0.2 }}
+          className="flex flex-col   max-w-[100%] md:w-[320px] rounded-xl items-center justify-center  text-center p-2 "
         >
           <img src={Image1} alt="me" className="w-[150px] rounded-lg mb-2" />
           <div className="flex items-center mt-10">
