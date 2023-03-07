@@ -277,10 +277,9 @@ function Skills() {
           </div>
           <div className="p-3">
             <p className="text-[16px]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              quaerat alias nostrum ea explicabo officiis voluptatem odit vero
-              reiciendis numquam, commodi repudiandae omnis laborum expedita.
-              Mollitia quisquam pariatur laborum impedit?
+              I'm studying PHP alongside with MySQL to learn more about back-end
+              and how it works. I have basic basic knowledge in making dynamic
+              website using in PHP by helping my fellow classmates to their capstone project.
             </p>
           </div>
         </motion.div>
