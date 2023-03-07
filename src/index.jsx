@@ -29,6 +29,6 @@ const router = createHashRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter type="hasbang" router={router} />
+    <HashRouter type="noslash" router={router} />
   </React.StrictMode>
 );
