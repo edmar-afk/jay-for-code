@@ -13,7 +13,7 @@ function Nav() {
         <div className="w-full h-[60px] backdrop-blur-2xl rounded-full max-w-[460px] 
         mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           
-          <Link to="/homepage"  className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
+          <Link to="/"  className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
             <BiHomeAlt />
           </Link>
           <Link to="about" className="cursor-pointer w-[60px] flex items-center justify-center text-primary hover:text-orange-500">
