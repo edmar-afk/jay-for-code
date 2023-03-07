@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./components/routes/App";
 import Resume from "./components/Resume";
-import { createHashRouter, HashRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import RootLayOut from "./components/routes/RootLayout";
 import Works from "./components/Works";
 import Skills from "./components/Skills";
@@ -29,6 +29,6 @@ const router = createHashRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter type="noslash" router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
